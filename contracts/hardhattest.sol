@@ -5,7 +5,7 @@ contract hardhattest {
     uint256 public value;
 
     constructor() public {
-        value = 0;
+        value = 1;
     }
 
     function setValue(uint _value) public {

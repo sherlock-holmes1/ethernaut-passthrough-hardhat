@@ -26,10 +26,11 @@ const config: HardhatUserConfig = {
       accounts,
     },
     hardhat: {
-      /*accounts,
+      accounts,
       forking: {
-        url: ARCHIVE_URL // use archive for forking
-      }*/
+        url: ARCHIVE_URL as string, // use archive for forking
+        blockNumber: 10842136, // use block 0 for forking
+      }
     },
   },
   mocha: {
